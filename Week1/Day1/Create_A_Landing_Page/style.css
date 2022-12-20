@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.nav {
+    padding-top: 10px;
+    font-family: arial;
+    height: 35px;
+    background-color: white;
+
+}
+
+
+
+#label_nav {
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+#button_nav {
+    float: right;
+    margin-right: 80px;
+}
+
+button {
+
+    background-color: #5962da;
+    /* Green */
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #d5362a;
+    /* Green */
+    color: white;
+}
+
+
+#image_background {
+    background: url('https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') top center;
+    image-rendering: -webkit-optimize-contrast;
+    background-size: 100% 620px;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#label-project {
+
+    width: 900px;
+    height: 300px;
+
+}
+
+#container_project {
+    background: rgba(82, 94, 82, 0.2);
+
+}
+
+#container_project h1 {
+    text-align: center;
+    color: white;
+    opacity: 1;
+
+
+}
+
+input {
+    margin-top: 40px;
+    margin-left: 110px;
+    width: 50%;
+    height: 30px;
+    border: 2px solid blue;
+    border-radius: 25px;
+    text-align: center;
+}
+
+input::selection {
+    border: 2px solid red;
+    border-radius: 25px;
+}
+
+
+.after_image {
+
+    font-family: arial;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottom_element {
+    margin-left: 0px;
+    margin-top: 80px;
+    width: 1000px;
+    height: 150px;
+
+}
+
+#first {
+    float: left;
+    width: 300px;
+}
+
+#second {
+    float: right;
+    width: 300px;
+}
+
+#third {
+    float: right;
+    width: 300px;
+}
+
+.icon {
+    padding: 120px;
+    color: blue;
+    font-size: 50px;
+}
+
+h3 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+#description {
+    margin-top: 5px;
+    text-align: center;
+    color: gray;
+
+}
